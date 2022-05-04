@@ -1,0 +1,12 @@
+[
+    {
+        "name": "cafe",
+        "borderColor": "rgb(255, 0, 0)",
+        "backgroundColor": "rgb(255, 128, 128)"
+    },
+    {
+        "name": "bird",
+        "borderColor": "rgb(0, 255, 0)",
+        "backgroundColor": "rgb(128, 256, 128)"
+    }
+]
