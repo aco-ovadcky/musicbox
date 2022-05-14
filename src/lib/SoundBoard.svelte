@@ -31,4 +31,5 @@
 >
     <div class="text-center">{active}</div>
     <input bind:this="{range}" type="range" min="0" max="100" value="40" class="range" />
+    <div class="text-center">{name}</div>
 </div>
