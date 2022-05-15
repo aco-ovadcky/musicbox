@@ -1,0 +1,17 @@
+FROM node:fermium-bullseye
+
+# Set the Node environment to development to ensure all packages are installed
+ENV NODE_ENV development
+
+WORKDIR /app/
+# Copy over `package.json` and lock files to optimize the build process
+# yet not work
+# COPY ["package.json", "package-lock.json*", "npm-shrinkwrap.json*", "yarn.lock", "./"]
+# RUN yarn
+
+# Expose port 3000 for the SvelteKit app and 24678 for Vite's HMR
+EXPOSE 3000
+EXPOSE 24678
+
+# override it
+CMD ["exit", "1"]
